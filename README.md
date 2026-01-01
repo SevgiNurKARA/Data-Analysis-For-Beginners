@@ -85,8 +85,11 @@ Eksik veri işleme teknikleri:
 git clone https://github.com/SevgiNurKARA/Data-Analysis-For-Beginners.git
 cd Data-Analysis-For-Beginners
 
-# Bağımlılıkları yükle
-pip install numpy pandas matplotlib jupyter
+# Bağımlılıkları yükle (önerilen)
+pip install -r requirements.txt
+
+# Veya manuel olarak
+pip install numpy pandas matplotlib seaborn scipy scikit-learn jupyter
 
 # Jupyter Notebook'u başlat
 jupyter notebook
